@@ -52,6 +52,11 @@ rails s
 
 ## Demo
 
+<h1 align="center">
+  <a href="https://michaelsromero.github.io/tomrunner/"><img src="https://github.com/MichaelSRomero/tomrunner/blob/master/assets/tom-runner.png" alt="Tom the Runner" width="300"></a>
+  <br>
+</h1>
+
 ## Deployment
 
 * Backend was deployed on Heroku using the free Hobby Dev option
