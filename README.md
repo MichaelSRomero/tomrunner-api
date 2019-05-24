@@ -77,6 +77,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Animated Runner Character - by [irmirx](https://opengameart.org/users/irmirx)
+* Sci Fi Platforms - from [GameArt2d](https://www.gameart2d.com/free-sci-fi-platformer-tileset.html)
