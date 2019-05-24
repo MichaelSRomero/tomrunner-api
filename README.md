@@ -5,6 +5,8 @@
 
 Tom Runner is an endless runner game built with Phaser 3, Vanilla JS and Ruby on Rails. Tom (the main character) is out to survive the cyber punk city after escaping his cohort. Jump back and forth through platforms and see how long Tom can survive. But beware, some platforms fall, and getting too close to the screen can mean death!
 
+<a href="https://michaelsromero.github.io/tomrunner/">PLAY NOW!</a>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -53,6 +55,7 @@ rails s
 * Backend was deployed on Heroku using the free Hobby Dev option
 * Frontend is deployed and being hosted by GitHub
 <br>
+
 [Tom Runner Game](https://michaelsromero.github.io/tomrunner/?fbclid=IwAR3Gm1gssi3wR7sh3YDrOdCzjphZ3GOBn41mlVh3ihdcH6FVBBjkBt7HLWc)
 
 ## Built With
