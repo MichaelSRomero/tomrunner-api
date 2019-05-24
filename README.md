@@ -11,33 +11,49 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+First you must fork and clone this Repository onto your terminal. After you have done so, you can fork and clone the Client-side repo which is located here: [Tom-Runner-Client](https://github.com/MichaelSRomero/tomrunner)
 
 ```
-Give examples
+<!-- API -->
+git clone https://github.com/MichaelSRomero/tomrunner-api.git
+<!-- Front End -->
+git clone https://github.com/MichaelSRomero/tomrunner.git
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+#### Ruby Version
+`2.6.1`
 
 ```
-until finished
+Bundle Install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Make sure Postgres is on & create the database:
+
+```
+rails db:create
+```
+
+Run Migrations:
+
+```
+rails db:migrate
+```
+
+Run the Server:
+```
+rails s
+```
+
+## Demo
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+* Backend was deployed on Heroku using the free Hobby Dev option
+* Frontend is deployed and being hosted by GitHub
+<br>
+[Tom Runner Game](https://michaelsromero.github.io/tomrunner/?fbclid=IwAR3Gm1gssi3wR7sh3YDrOdCzjphZ3GOBn41mlVh3ihdcH6FVBBjkBt7HLWc)
 
 ## Built With
 
@@ -59,23 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
